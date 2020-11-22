@@ -1,0 +1,21 @@
+includes preprocessor directives
+->the preprocessor directive includes all librairies 
+
+Body of main
+{  ->startof body
+
+    num a,b,c;
+    a=5;
+    b=10;
+    c=15;
+    
+    if( a.eq.b) ->checks if a value is equals to b if yes outpus the staements in block
+    {
+    	display("a is equal to b\n");
+	}
+	if( a.neq.b) ->checks if a value is not equals to b if yes outpus the staements in block
+	{
+		display("a is not equal to b\n");
+	}
+	
+}
