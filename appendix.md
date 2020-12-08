@@ -17,19 +17,14 @@
 
 ### Keywords
 &emsp;&emsp; The following identifiers are reserved for the use as keywords and may not be used otherwise:
-
-
-&emsp;&emsp;&emsp;&emsp; auto  real  int  struct 
-
-&emsp;&emsp;&emsp;&emsp; if  else  switch  case 
-
-&emsp;&emsp;&emsp;&emsp; enum  register  typedef  extern 
-
-&emsp;&emsp;&emsp;&emsp; return  union  char  const 
-
-&emsp;&emsp;&emsp;&emsp; continue  repeat  void  default 
-
-&emsp;&emsp;&emsp;&emsp; goto  sizeof  volatile  static 
+|Keywords|Keywords|Keywords|Keywords|
+|----|----|----|----|
+|auto|real|int|struct| 
+|if|else|switch|case| 
+|enum|register|typedef|extern| 
+|return|union|char|const| 
+|continue|repeat|void|default| 
+|goto|sizeof|volatile|static| 
 
 ### Constants
 &emsp;&emsp; There are several kinds of constants.Each has a data type and here are some of them
