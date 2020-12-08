@@ -38,13 +38,22 @@
 &emsp;&emsp;&emsp;&emsp; Enumeration constant
 
 #### Integer constants
-&emsp;&emsp; 
+&emsp;&emsp; An integer constant consisting of a sequence of digits is taken to be octal if it begins with 0(digit zero),decimal otherwise.Octal constants do not contain the digits 8 or 9. A sequence of digits preceded by 0x is taken to be a hexadecimal integer.The hexadecimal digits include a or A through f or F with values 10 through 15.
+
+&emsp;&emsp; An integer may be suffixed by the letter u or U to specify that it is unsigned.
+
+&emsp;&emsp; The type of an integer constant depends on its form value and suffix. If it is unsuffixed and decimal it has these types in which its value can be represented : int,unsigned int and(long int is already included in int). If it is unsuffixed octal or hexadecimal it can be represented : int,unsigned int and the(long versions of them are also covered in these only). If it suffixed by u or U then unsigned int.
+
+#### Character constants
+&emsp;&emsp;
 
 
 
+#### Floating Constants
 
 
-
+#### Enumeration Constants
+&emsp;&emsp; Identifiers declared as enumarators are constants of type int.
 
 ### String Literals
 &emsp;&emsp; A string literal also called a string constant is a sequence of characters surrounded by double quotes as in "   ". A string has type "array of characters" and storage class startic and is initialized with the given characters.Whether identical string literals are distinct is implementation defined and the behaviour of a program that attempts to alter a string literal is undefined.
