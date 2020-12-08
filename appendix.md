@@ -45,12 +45,26 @@
 &emsp;&emsp; The type of an integer constant depends on its form value and suffix. If it is unsuffixed and decimal it has these types in which its value can be represented : int,unsigned int and(long int is already included in int). If it is unsuffixed octal or hexadecimal it can be represented : int,unsigned int and the(long versions of them are also covered in these only). If it suffixed by u or U then unsigned int.
 
 #### Character constants
-&emsp;&emsp;
+&emsp;&emsp; A character constant is a sequence of one or more characters enclosed in single quotes as in 'x'. The value of a character constant with only one character is the numeric value of the character in the machines character set at execution time. The vaue of a multi character constant is implementation defined.
 
-
+| Constant | Abberiviation | Symbol|
+|----|----|----|
+|new line|NL(LF)|\n|
+|horizontal tab|HT|\t|
+|vertical tab|VT|\v|
+|backspace|BS|\b|
+|carriage return|CR|\r|
+|formfeed|FF|\f|
+|audible alert|BEL|\a|
+|backslash|\|\\|
+|question mark|?|\?|
+|single quote|'|\'|
+|double quote|"|\"|
+|octal number|ooo|\ooo|
+|hex number|hh|\xhh|
 
 #### Floating Constants
-
+&emsp;&emsp; 
 
 #### Enumeration Constants
 &emsp;&emsp; Identifiers declared as enumarators are constants of type int.
