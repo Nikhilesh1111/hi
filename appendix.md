@@ -99,10 +99,15 @@ Adjacent string literals are concatenated into a single string.After any concate
 &emsp;&emsp; Beside the basic types there is a conceptually infinite class of derived types consructed from the fundamental types in the following ways:
 
 &emsp;ARRAYS of objects of a given type
+
 &emsp;FUNCTIONS returning objects of a given type
+
 &emsp;POINTERS to objects of a given type
+
 &emsp;STRUCTURES containing a sequence of objects of various types.
+
 &emsp;UNIONS capable of containing any of one of several objects of various types.
+
 
 ### Type Qualifiers
 &emsp;&emsp; An objects type may have additional qualifiers.Declaring an object const announces that its value will not be changed and declaring it volatile announces that it has special properties relevant to optimization.Neither qualifier affects the range of values or arithmetic properties of the object.
