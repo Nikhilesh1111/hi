@@ -19,17 +19,25 @@
 &emsp;&emsp; The following identifiers are reserved for the use as keywords and may not be used otherwise:
 
 
-&emsp;&emsp;| auto | real | int | struct |
+&emsp;&emsp;&emsp;&emsp;| auto | real | int | struct |
 
-&emsp;&emsp;| if | else | switch | case |
+&emsp;&emsp;&emsp;&emsp;| if | else | switch | case |
 
-&emsp;&emsp;| enum | register | typedef | extern |
+&emsp;&emsp;&emsp;&emsp;| enum | register | typedef | extern |
 
-&emsp;&emsp;| return | union | char | const |
+&emsp;&emsp;&emsp;&emsp;| return | union | char | const |
 
-&emsp;&emsp;| continue | repeat | void | default |
+&emsp;&emsp;&emsp;&emsp;| continue | repeat | void | default |
 
-&emsp;&emsp;| goto | sizeof | volatile | static |
+&emsp;&emsp;&emsp;&emsp;| goto | sizeof | volatile | static |
 
+### Constants
+&emsp;&emsp; There are several kinds of constants.Each has a data type 
 
+### String Literals
+&emsp;&emsp; A string literal also called a string constant is a sequence of characters surrounded by double quotes as in "   ". A string has type "array of characters" and storage class startic and is initialized with the given characters.Whether identical string literals are distinct is implementation defined and the behaviour of a program that attempts to alter a string literal is undefined.
+
+Adjacent string literals are concatenated into a single string.After any concatenation a null byte \0 is appended to the string so that programs that scan the string can find its end.String literal do not contain newline or double quote characters in order to represent them,the same escape sequences as for character constants are available.
+
+## Meaning of Identifiers
 
