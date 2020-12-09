@@ -19,7 +19,7 @@
 &emsp;&emsp; The following identifiers are reserved for the use as keywords and may not be used otherwise:
 |Keywords|Keywords|Keywords|Keywords|
 |----|----|----|----|
-|auto|real|int|struct| 
+|auto|real|num|struct| 
 |if|else|switch|case| 
 |enum|register|typedef|extern| 
 |return|union|char|const| 
@@ -42,7 +42,7 @@
 
 &emsp;&emsp; An integer may be suffixed by the letter u or U to specify that it is unsigned.
 
-&emsp;&emsp; The type of an integer constant depends on its form value and suffix. If it is unsuffixed and decimal it has these types in which its value can be represented : int,unsigned int and(long int is already included in int). If it is unsuffixed octal or hexadecimal it can be represented : int,unsigned int and the(long versions of them are also covered in these only). If it suffixed by u or U then unsigned int.
+&emsp;&emsp; The type of an integer constant depends on its form value and suffix. If it is unsuffixed and decimal it has these types in which its value can be represented : num,unsigned num and(long num is already included in num). If it is unsuffixed octal or hexadecimal it can be represented : num,unsigned num and the(long versions of them are also covered in these only). If it suffixed by u or U then unsigned num.
 
 #### Character constants
 &emsp;&emsp; A character constant is a sequence of one or more characters enclosed in single quotes as in 'x'. The value of a character constant with only one character is the numeric value of the character in the machines character set at execution time. The vaue of a multi character constant is implementation defined.
@@ -67,7 +67,7 @@
 &emsp;&emsp; 
 
 #### Enumeration Constants
-&emsp;&emsp; Identifiers declared as enumarators are constants of type int.
+&emsp;&emsp; Identifiers declared as enumarators are constants of type num.
 
 ### String Literals
 &emsp;&emsp; A string literal also called a string constant is a sequence of characters surrounded by double quotes as in "   ". A string has type "array of characters" and storage class startic and is initialized with the given characters.Whether identical string literals are distinct is implementation defined and the behaviour of a program that attempts to alter a string literal is undefined.
@@ -87,7 +87,7 @@ Adjacent string literals are concatenated into a single string.After any concate
 
 &emsp;&emsp; Unsigned characters are declared as (unsigned char) and they are always non negative and Signed characters are declared as(signed char) they can be negative or positive.
 
-&emsp;&emsp; There is only one definition for integer(int).There is space generated for long and short int automatically. The int type represents signed values unless specified otherwise.For unsigned integers we need to declare them as (unsigned int) and this type will store only positive values.
+&emsp;&emsp; There is only one definition for integer(num).There is space generated for long and short num automatically. The int type represents signed values unless specified otherwise.For unsigned integers we need to declare them as (unsigned num) and this type will store only positive values.
 
 &emsp;&emsp; There is only definition for non integer values which is(real) which is used to store values containing decimal places.
 
