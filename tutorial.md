@@ -15,4 +15,6 @@ In our language the program to print 'hello, world' is
 
 You can compile this code using the suitable compiler and then run it to get the output.
 
-A program using our language whatever its size consists of functions and variables. A function contains statements that specify the computing operations to be done and variables store values used during the computation. Our  
+A program using our language whatever its size consists of functions and variables. A function contains statements that specify the computing operations to be done and variables store values used during the computation. In the example above main is a function.Every program begins executing at the beginning of main. This means that every program must have a main somewhere.
+
+The first line of the program tells the compiler to include the neceaary libraries.
