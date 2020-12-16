@@ -1,9 +1,4 @@
-|Keywords|Keywords|Keywords|Keywords|
-|----|----|----|----|
-|display|real|num|struct| 
-|if|else|repeat|length| 
-|list|append|insert|delete| 
-|return|string|void|
+
 
         
         
