@@ -36,3 +36,34 @@
     * Test error for Q=5 is higher which contradicts the given statement hence its false.
 
 ### Part D)
+* For C=0.01 :-
+    * Train Error :- 0.00384
+    * Test Error :- 0.02358
+* For C=1 :-
+    * Train Error :- 0.00448
+    * Test Error :- 0.02122
+* For C=100 :-
+    * Train Error :- 0.00320
+    * Test Error :- 0.01886
+* For C=10000 :- 
+    * Train Error :- 0.00256
+    * Test Error :- 0.02358
+* For C=1000000 :- 
+    * Train Error :- 0.00064
+    * Test Error :- 0.02358
+* The lowest Training error is for C=1000000 (0.00064) and lowest test error is for C=100(0.01886).
+
+# Question 5
+
+### For Linear Kernel :- 
+* Train Error :- 0.0
+* Test Error :- 0.02400
+* Number of Support Vectors :- 542,542
+### For RBF Kernel :- 
+* Train Error :- 0.0
+* Test Error :- 0.5
+* Number of Support Vectors :- 3000,3000
+### For Polynomial Kernel :- 
+* Train Error :- 0.00049
+* Test Error :- 0.02000
+* Number of Support Vectors :- 641,691
