@@ -64,6 +64,6 @@
 * Test Error :- 0.5
 * Number of Support Vectors :- 3000,3000
 ### For Polynomial Kernel :- 
-* Train Error :- 0.00049
-* Test Error :- 0.02000
-* Number of Support Vectors :- 641,691
+* Train Error :- 0.0
+* Test Error :- 0.02100
+* Number of Support Vectors :- 817,938
