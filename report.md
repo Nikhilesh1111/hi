@@ -1,20 +1,20 @@
 # Question 4
 ### Part A)
-* The accuracy is :- 0.97877
+* The Test accuracy is :- 0.97877
 * Number of Support Vectors :- 14,14
 
 ### Part B)
 * For first 50 points:-
-    * The accuracy is :- 0.9811
+    * The Test accuracy is :- 0.9811
     * Number of Support Vectors :- 1,1
 * For first 100 points:-
-    * The accuracy is :- 0.9811
+    * The Test accuracy is :- 0.9811
     * Number of Support Vectors :- 2,2
 * For first 200 points:-
-    * The accuracy is :- 0.9811
+    * The Test accuracy is :- 0.9811
     * Number of Support Vectors :- 4,4
 * For first 800 points:-
-    * The accuracy is :- 0.9811
+    * The Test accuracy is :- 0.9811
     * Number of Support Vectors :- 7,7
 
 ### Part C)
